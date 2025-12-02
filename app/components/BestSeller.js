@@ -28,7 +28,7 @@ const BestSeller = ({ data }) => {
   // sm md lg xl xxl 2xl
 
   return (
-    <section className="w-full p-4 md:p-0 mx-auto flex flex-col items-center gap-14 border">
+    <section className="w-full p-4 md:p-0 mx-auto flex flex-col items-center gap-14">
       <div className="text-center">
         {CreateHeading({
           parts: [data.title, data.hightLightedTitle],
